@@ -1,0 +1,236 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.product {
+  border: 1px solid #ccc;
+  background-color: #999;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product-name {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-category {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* ----------q3---------- */
+
+.book {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.book img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(0);
+  transition: transform 0.5s ease;
+}
+
+.book:hover .book-details {
+  transform: rotateY(45deg);
+}
+
+.book-details > * {
+  margin: 10px;
+  text-align: center;
+}
+
+.book-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.book-author {
+  font-size: 18px;
+}
+
+.book-rating {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f90;
+}
+
+/* -------------q4--------------- */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #888;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* -----------------------Q5---- */
+
+.cookbook {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.recipes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipes li {
+  background-color: royalblue;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.recipes li h2 {
+  margin-top: 0;
+}
+
+.recipes li p {
+  margin-bottom: 0;
+}
+
+/* --------------------------Q8----- */
+
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Container for the movie list */
+
+ul {
+  list-style: none;
+}
+
+.movie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Styling for the list of movies */
+.movie-card {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.movie-card:hover {
+  border-color: royalblue;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 2, 0.3);
+}
+
+.movie-list h2 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+}
+
+/* Styling for the individual movie cards */
+.movie-card {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.movie-info {
+  font-size: 18px;
+  color: #555;
+}
+
+.director {
+  margin-bottom: 5px;
+}
+
+.runtime {
+  margin-bottom: 0;
+}
+
+/* ------------------------------------q9-------------- */
